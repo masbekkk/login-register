@@ -20,7 +20,7 @@
             <div class="card">
                 <div class="card-body text-center">
 
-                    <img class="img img-responsive rounded-circle mb-3" width="160" src="img/<?php echo $_SESSION['user']['photo'] ?>" />
+                    <img class="img img-responsive rounded-circle mb-3" width="160" src="style/img/<?php echo $_SESSION['user']['photo'] ?>" />
                     
                     <h3><?php echo  $_SESSION["user"]["name"] ?></h3>
                     <p><?php echo $_SESSION["user"]["email"] ?></p>
